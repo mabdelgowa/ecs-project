@@ -1,8 +1,8 @@
-# backend/Dockerfile
-FROM python:3.11-slim
+FROM node:20-alpine
 WORKDIR /app
-COPY requirements.txt .
-RUN pip install -r requirements.txt
+COPY package*.json ./
+RUN npm install --production --silent
 COPY . .
-CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "8000"]
+EXPOSE 3000
+CMD ["node", "server.js"]
 

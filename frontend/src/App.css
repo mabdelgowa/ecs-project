@@ -1,5 +1,51 @@
-/* frontend/src/App.css */
-.App {
+h1 {
   text-align: center;
+  color: #0b66c3;
+}
+
+input {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+button {
+  display: inline-block;
+  padding: 10px 16px;
+  margin-top: 10px;
+  background-color: #0b66c3;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  padding: 12px;
+  margin: 8px 0;
+  background: #f1f5ff;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+li .del {
+  margin-left: 12px;
+  background: #ff5c5c;
+  border-radius: 6px;
+  padding: 6px 10px;
+  color: white;
+  border: none;
 }
 
