@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { fetchTasks, createTask, deleteTask } from './api';
+import { fetchTasks, createTask, deleteTask } from './api.js';
 import './App.css';
 
 function App() {
