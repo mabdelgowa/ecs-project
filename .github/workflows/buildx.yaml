@@ -6,7 +6,7 @@ on:
       - 'src/**'
       - 'public/**'
       - 'backend/**'
-      - '.github/workflows/buildx.yml'
+      - '.github/workflows/buildx.yaml'
 
 
 jobs:
